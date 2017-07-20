@@ -73,6 +73,31 @@ body {
 	vertical-align: top;
 }
 
+.sidescrollbar{
+	width: 100%;
+	height: 300px;
+	white-space: nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.placeholder {
+	width: 23%;
+	height: 275px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
+.placeholder:hover {
+	background-color: grey;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+
 .impressum {
 	padding: 5px;
 	border: 1px solid black;
