@@ -5,7 +5,6 @@ body {
 				 Helvetica,
 				 Arial,
 				 "Lucida Grande", sans-serif;
-	background-color: #cdfffe;
 }
 
 .header {
@@ -17,7 +16,6 @@ body {
 .navBar {
 	display: inline-block;
 	background-color: white;
-	border: 1px solid black;
 	position: fixed;
 	margin left: 225px;
 	color: black;
@@ -39,7 +37,7 @@ body {
 }
 
 .navBar a:hover {
-	background-color: #66cdcc;
+	background-color: #ff9934;
 	color: black;
 
 }
@@ -49,48 +47,42 @@ body {
 }
 
 .textbox {
+	width: 50%;
+	margin-left: 25%;
+	margin-right:25%;
 	text-align: center;
 	padding: 7px;
 	margin-top: 5px;
 	background-color: #66cdcc;
-	font-size: 1.5em;
 }
 
 .leistungen {
+	margin-top: 5px;
+	height: 280px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #66cdcc;
 	text-align: center;
-	width: 100%;
-	padding: 5px;
+	padding: 7px;
+	overflow-x: scroll;
+	white-space: nowrap;
+	overflow-y: hidden;
 }
 
 .factsbox {
+	text-decoration: none;
+	color: black;
 	text-align: center;
-	display: inline-block;
-	width: 23%;
-	float: left;
-	padding: 7px;
-	margin-bottom: 30px;
-	margin-left: 7px;
-	-webkit-transition: all 0.5s ease-in-out;
-}
-
-.factsbox h1 {
-	border: 1px solid black;
-	border-radius: 100px;
-	background-color: #ff9934;
-}
-
-.factsbox:hover {
-	background-color: #66cdcc;
-	-webkit-transition: all 0.5s ease-in-out;
-}
-
-.box h1 {
-	border: 1px solid black;
-	background-color: #ff9934;
-	border-radius: 10px;
+	border-radius: 50% / 50%;
+	border: 4px solid #66cdcc;
 }
 
 .impressum {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
 	padding: 5px;
 	margin-top: 5px;
+	border: 1px solid black;
 }

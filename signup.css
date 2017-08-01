@@ -5,7 +5,6 @@ body {
 				 Helvetica,
 				 Arial,
 				 "Lucida Grande", sans-serif;
-	background-color: #cdfffe;
 }
 
 .header {
@@ -17,7 +16,6 @@ body {
 .navBar {
 	display: inline-block;
 	background-color: white;
-	border: 1px solid black;
 	position: fixed;
 	margin left: 225px;
 	color: black;
@@ -39,7 +37,7 @@ body {
 }
 
 .navBar a:hover {
-	background-color: #66cdcc;
+	background-color: #ff9934;
 	color: black;
 
 }
@@ -49,50 +47,48 @@ body {
 }
 
 .textbox1 {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
 	text-align: center;
 	margin-top: 5px;
-	padding: 10px;
-	font-size: 1.5em;
+	padding: 7px;
 }
 
 .textbox2 {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
 	text-align: center;
 	margin-top: 5px;
-	padding: 10px;
-	font-size: 1.5em;
+	padding: 7px;
 	background-color: #66cdcc;
 }
 
 .facts {
+	margin-top: 5px;
 	text-align: center;
-	width: 100%;
-	padding: 5px;
+	width: 50%;
+	height: 250px;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 7px;
+	background-color: #ff9934;
+
 }
 
 .factsbox {
 	text-align: center;
-	display: inline-block;
 	width: 23%;
-	float: left;
-	padding: 7px;
-	margin-bottom: 30px;
-	margin-left: 7px;
-	-webkit-transition: all 0.5s ease-in-out;
-}
-
-.factsbox h1 {
-	border: 1px solid black;
-	border-radius: 100px;
-	background-color: #ff9934;
-}
-
-.factsbox:hover {
-	background-color: #66cdcc;
-	-webkit-transition: all 0.5s ease-in-out;
+	border-radius: 50% / 50%;
+	border: 4px solid #ff9934;
+	height: 200px;
 }
 
 .pricingbox {
-	width: 100%;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
 	text-align: center;
 	background-color: #66cdcc;
 	padding: 7px;
@@ -104,28 +100,31 @@ body {
 
 .footer {
 	margin-top: 5px;
-	width: 100%;
 	border: 1px solid black;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 7px;
 }
 
 .anschrift {
-	width: 25%;
-	padding: 5px;
+	width: 33%;
+	padding: 2px;
 	display: inline-block;
 	border-right: 1px solid black;
 	vertical-align: top;
 }
 
 .kontakt {
-	width: 70%;
+	width: 65%;
 	float: right;
 	display: inline-block;
-	padding: 4px;
+	padding: 2px;
 	vertical-align: top;
 }
 
 .impressum {
-	padding: 5px;
+	padding: 2px;
 	border-top: 1px solid black;
 }
 
